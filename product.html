@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINEVO - House Details</title>
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="header_footer.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo" onclick="window.location.href='index.html'">LINEVO</div>
+      <nav class="nav-links">
+        <a href="browse.html">House</a>
+        <a href="browse.html">Apartment</a>
+        <a href="#">Buy Now</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="browse.html">House</a>
+        <a href="browse.html">Apartment</a>
+        <a href="#">Buy Now</a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="image-slider">
+        <div class="image-wrapper">
+          <img id="main-image" src="img/out1.jpg" alt="Apartment" />
+          <img id="fade-image" class="hidden" />
+          <button id="prev">&#10094;</button>
+          <button id="next">&#10095;</button>
+        </div>
+        <div class="thumbnails">
+          <img src="img/out1.jpg" class="thumb active" />
+          <img src="img/2.jpg" class="thumb" />
+          <img src="img/4.jpg" class="thumb" />
+          <img src="img/6.jpg" class="thumb" />
+          <img src="img/7.jpg" class="thumb" />
+          <img src="img/8.jpg" class="thumb" />
+        </div>
+      </div>
+      <div class="details">
+        <div class="details-header-table-wrapper">
+          <table class="details-header-table">
+            <tr>
+              <td class="title">Modern Mansion</td>
+              <td class="price">525.000 €</td>
+            </tr>
+            <tr>
+              <td class="location">Madrid, Spain</td>
+              <td class="vat">VAT included</td>
+            </tr>
+          </table>
+        </div>
+        <div class="details-content">
+          <div class="property-info">
+            <table class="property-table">
+              <tr>
+                <td>
+                  <strong>Size:</strong> 150 m²
+                </td>
+                <td>
+                  <strong>Bedrooms:</strong> 4
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Bathrooms:</strong> 3
+                </td>
+                <td>
+                  <strong>Garage:</strong> Yes
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Floors:</strong> 2nd
+                </td>
+                <td>
+                  <strong>Year Built:</strong> 2018
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Heating:</strong> Central
+                </td>
+                <td>
+                  <strong>Condition:</strong> Excellent
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Orientation:</strong> South
+                </td>
+                <td>
+                  <strong>Balcony:</strong> Yes
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Energy Rating:</strong> B+
+                </td>
+                <td>
+                  <strong>Internet:</strong> Fiber Optic
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Air Conditioning:</strong> Yes
+                </td>
+                <td>
+                  <strong>Public Transport:</strong> 3 min walk
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.509189307518!2d-3.695765084604415!3d40.43687797936316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228dcd556777b%3A0x57d20f1f7637b75a!2sChamart%C3%ADn%2C%20Madrid%2C%20Spain!5e0!3m2!1sen!2shu!4v1711825000000!5m2!1sen!2shu" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <p class="full-description"> This elegant modern mansion is situated in the prestigious district of Chamartín, Madrid. Spanning 150 m² across two floors, it offers a spacious layout featuring four bedrooms and three bathrooms, ideal for families seeking style, comfort, and practicality. <br>
+          <br> Built in 2018, the property boasts high-end finishes, central heating, fiber optic internet, and air conditioning throughout. Sunlight floods the interior through south-facing windows, and a private balcony adds the perfect touch for relaxing mornings or evening views. <br>
+          <br> The home includes a secure garage, excellent energy efficiency (B+ rating), and is just a 3-minute walk from public transport, connecting you quickly to the heart of the city. With its excellent condition and outstanding amenities, this mansion is a rare opportunity to live in one of Madrid’s most desirable residential areas.
+        </p>
+        <div class="cta-button-wrapper">
+          <button class="cta-button">I'm Interested</button>
+        </div>
+      </div>
+    </div>
+    <footer class="main-footer">
+      <div class="footer-content">
+        <h3>Subscribe to our newsletter for property updates:</h3>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="footer-copy">© 2025 LINEVO. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const nav = document.getElementById('mobileNav');
+        nav.classList.toggle('active');
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

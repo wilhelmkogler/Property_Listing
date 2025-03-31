@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LINEVO - Available Houses</title>
+    <link rel="stylesheet" href="browse.css" />
+    <link rel="stylesheet" href="header_footer.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo" onclick="window.location.href='index.html'">LINEVO</div>
+      <nav class="nav-links">
+        <a href="browse.html">House</a>
+        <a href="browse.html">Apartment</a>
+        <a href="#">Buy Now</a>
+      </nav>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+      <div class="mobile-nav" id="mobileNav">
+        <a href="browse.html">House</a>
+        <a href="browse.html">Apartment</a>
+        <a href="#">Buy Now</a>
+      </div>
+    </header>
+    <main class="browse-container">
+      <h2 class="browse-title">Available Houses</h2>
+      <div class="property-grid">
+        <div class="property-card">
+          <img src="img/out1.jpg" alt="Modern Apartment" />
+          <h3>Modern Mansion</h3>
+          <p class="location">Madrid, Spain</p>
+          <p class="price">150 m² - 525.000 €</p>
+          <a href="product.html" class="view-button">View</a>
+        </div>
+        <div class="property-card">
+          <img src="img/out2.jpg" alt="Family House" />
+          <h3>Family House</h3>
+          <p class="location">Seville, Spain</p>
+          <p class="price">112 m² - 310.000 €</p>
+          <a href="product.html" class="view-button">View</a>
+        </div>
+        <div class="property-card">
+          <img src="img/out3.jpg" alt="Modern Villa" />
+          <h3>Modern Villa</h3>
+          <p class="location">Valencia, Spain</p>
+          <p class="price">138 m² - 435.000 €</p>
+          <a href="product.html" class="view-button">View</a>
+        </div>
+        <div class="property-card">
+          <img src="img/out4.jpg" alt="Townhouse" />
+          <h3>Townhouse</h3>
+          <p class="location">Madrid, Spain</p>
+          <p class="price">95 m² - 275.000 €</p>
+          <a href="product.html" class="view-button">View</a>
+        </div>
+        <div class="property-card">
+          <img src="img/out5.jpg" alt="Contemporary Home" />
+          <h3>Contemporary Home</h3>
+          <p class="location">Granada, Spain</p>
+          <p class="price">50 m² - 195.000 €</p>
+          <a href="product.html" class="view-button">View</a>
+        </div>
+        <div class="property-card">
+          <img src="img/out6.jpg" alt="Cozy Detached House" />
+          <h3>Cozy Detached House</h3>
+          <p class="location">Zaragoza, Spain</p>
+          <p class="price">78 m² - 229.000 €</p>
+          <a href="product.html" class="view-button">View</a>
+        </div>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-content">
+        <h3>Subscribe to our newsletter for property updates:</h3>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="footer-copy">© 2025 LINEVO. All rights reserved.</p>
+      </div>
+    </footer>
+    <script>
+      function toggleMenu() {
+        const nav = document.getElementById('mobileNav');
+        nav.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
