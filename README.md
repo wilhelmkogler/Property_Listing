@@ -14,7 +14,7 @@
         <li>Animated gallery for image transitions</li>
         <li>Google Maps integration</li>
         <li>Responsive design for all devices</li>
-      </ul>  
+    </ul>    
     <h2>Tech Stack</h2>  
     <p>Front-End: HTML, CSS, JavaScript</p>   
     <h2>Featured Listings</h2> 
@@ -30,12 +30,18 @@
     <h2>Frequently Asked Questions</h2>
     <img src="img/git8.JPG" alt="" srcset="">  
     <p align="justify">Potential buyers often have many questions in mind, which is why a Frequently Asked Questions (FAQ) section has been created. It aims to provide answers to the most commonly asked questions, allowing users to gain valuable information just by browsing the site — even before getting in touch directly.</p>
-    <h2>Report 1 & 2</h2>
-    <img src="img/7.JPG" alt="" srcset=""> 
-    <p align="justify">Once records have been stored, reporting windows become available. The first report displays the total value of all records in the product table, showing the overall worth of all jerseys. The second report presents the details of the most valuable item in stock, identifying which jersey holds the highest value and providing information about it.</p>
-    <h2>Report 3</h2>
-    <img src="img/8.JPG" alt="" srcset="">
-    <p align="justify">The third and final report is user-driven, as it displays information based on the warehouse selected by the user. After choosing a specific warehouse, the user is presented with detailed data about it, including its location, total capacity, current stock level, and the percentage of space currently used. This utilization rate is also visualized with a bar chart, making it easy to understand how full the warehouse is at a glance.</p>
+    <h2>Newsletter Subscription</h2>
+    <img src="img/git9.JPG" alt="" srcset=""> 
+    <p align="justify">At the bottom of the page, in the footer section, users can find a newsletter subscription option. By entering their email address, they will receive updates about the real estate market — including new listings, removed or sold properties, and the appearance of newly added cities.</p>
+    <h2>Property Browse</h2>
+    <img src="img/git2.JPG" alt="" srcset="">
+    <p align="justify">When browsing available houses or apartments, users are directed to a dedicated listing page where properties are displayed using a Flexbox layout. Each property is shown in a card format, highlighting only the most important details to quickly capture the user's attention. Special focus has been placed on the use of animations throughout the page — key elements like buttons and property cards feature interactive effects when hovered over with the cursor, enhancing the overall user experience.</p>
+    <h2>Property Browse</h2>
+    <img src="img/git2.JPG" alt="" srcset="">
+    <p align="justify">When browsing available houses or apartments, users are directed to a dedicated listing page where properties are displayed using a Flexbox layout. Each property is shown in a card format, highlighting only the most important details to quickly capture the user's attention. Special focus has been placed on the use of animations throughout the page — key elements like buttons and property cards feature interactive effects when hovered over with the cursor, enhancing the overall user experience.</p>
+    <h2>Property Browse</h2>
+    <img src="img/git2.JPG" alt="" srcset="">
+    <p align="justify">When browsing available houses or apartments, users are directed to a dedicated listing page where properties are displayed using a Flexbox layout. Each property is shown in a card format, highlighting only the most important details to quickly capture the user's attention. Special focus has been placed on the use of animations throughout the page — key elements like buttons and property cards feature interactive effects when hovered over with the cursor, enhancing the overall user experience.</p>
 
     
     
