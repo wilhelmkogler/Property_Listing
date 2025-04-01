@@ -36,7 +36,7 @@
     <h2>Property Browse</h2>
     <img src="img/git2.JPG" alt="" srcset="">
     <p align="justify">When browsing available houses or apartments, users are directed to a dedicated listing page where properties are displayed using a Flexbox layout. Each property is shown in a card format, highlighting only the most important details to quickly capture the user's attention. Special focus has been placed on the use of animations throughout the page — key elements like buttons and property cards feature interactive effects when hovered over with the cursor, enhancing the overall user experience.</p>
-    <h2>Property Browse</h2>
+    <h2>Property Page</h2>
     <img src="img/git3.JPG" alt="" srcset="">
     <p align="justify">When a specific property is selected, the user is taken to the detailed view page, where all available information is presented as thoroughly as possible, including images and descriptions. One of the most important elements is the image gallery, which allows users to navigate between photos using left and right arrows or by clicking on the thumbnail images below. A subtle fade animation enhances the photo transitions for a smoother user experience. <br><br>
         Below the gallery, all essential property details are displayed, with the most important ones highlighted using larger font sizes. A table layout is used to make the information easier and quicker to understand. Additionally, an embedded Google Map helps users quickly locate the property, and a brief description provides further context about the area.</p>
