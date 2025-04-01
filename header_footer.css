@@ -74,7 +74,7 @@
   right: 0;
   background-color: #fff;
   box-shadow: 0 4px 16px rgba(0,0,0,.1);
-  padding: 15px;
+  padding: 10px 15px;
   z-index: 999;
   animation: none;
   transition: opacity .3s ease,transform .3s ease;
@@ -84,6 +84,12 @@
   text-decoration: none;
   color: #000;
   font-weight: 500;
+}
+.mobile-nav a:nth-child(3) {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 .main-footer {
   background-color: #fff;
@@ -155,4 +161,5 @@
 .mobile-nav.active {
   display: flex;
   animation: slideFadeIn .3s ease forwards;
+  align-items: center;
 }
