@@ -16,7 +16,7 @@
         <li>Responsive design for all devices</li>
       </ul>   
     <h2>Tech Stack</h2>  
-    <p>Front-End: HTML, CSS, JavaScript</p>   
+    <p>Front-End: ReactJS, Tailwind CSS, JavaScript</p>   
     <h2>Featured Listings</h2> 
     <img src="public/img/git5.JPG" alt="" srcset="">    
     <p align="justify">Right after the hero section, the featured listings follow, immediately capturing the user's attention. The clean, minimalistic cards help users quickly get familiar with the layout, showing only the most important information. With the help of the button, users are directed to the detailed listing page for more information.
