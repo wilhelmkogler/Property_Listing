@@ -28,7 +28,7 @@ function FAQ() {
   
     return (
       <section
-        className="relative bg-cover bg-center py-16 text-white"
+        className="relative bg-cover bg-center py-10 text-white"
         style={{ backgroundImage: "url('/img/2.jpg')" }}
       >
         <div className="absolute inset-0 bg-black/40 z-0 backdrop-blur-sm"></div>

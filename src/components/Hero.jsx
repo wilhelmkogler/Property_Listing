@@ -23,13 +23,13 @@ function Hero() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               to="/browse"
-              className="bg-black text-white text-lg md:text-xl font-medium px-6 py-3 rounded-lg transition-transform duration-300 hover:-translate-y-2"
+              className="bg-black text-white w-[200px] md:w-[250px] text-lg md:text-xl font-medium px-6 py-3 rounded-lg transition-transform duration-300 hover:-translate-y-2"
             >
               View Houses
             </Link>
             <Link
               to="/browse"
-              className="bg-white text-black text-lg md:text-xl font-medium px-6 py-3 rounded-lg transition-transform duration-300 hover:-translate-y-2"
+              className="bg-white text-black w-[200px] md:w-[250px] text-lg md:text-xl font-medium px-6 py-3 rounded-lg transition-transform duration-300 hover:-translate-y-2"
             >
               View Apartments
             </Link>

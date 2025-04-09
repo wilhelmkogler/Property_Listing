@@ -7,7 +7,7 @@ function Cities() {
     ];
   
     return (
-      <section className="bg-white px-6 py-16">
+      <section className="bg-white px-6 py-10">
         <h2 className="text-3xl text-center font-bold text-gray-900 mb-12">Browse by City</h2>
   
         <div className="max-w-6xl mx-auto grid gap-6 grid-cols-2 md:grid-cols-4">

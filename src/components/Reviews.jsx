@@ -19,7 +19,7 @@ function Reviews() {
   
     return (
       <section
-        className="relative bg-cover bg-center py-16 text-white"
+        className="relative bg-cover bg-center py-10 px-8 text-white"
         style={{ backgroundImage: "url('/img/7.jpg')" }}
       >
         <div className="absolute inset-0 backdrop-blur-sm bg-black/30 z-0"></div>

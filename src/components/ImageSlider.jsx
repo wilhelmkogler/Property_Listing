@@ -36,7 +36,7 @@ function ImageSlider() {
 
   return (
     <div className="w-full max-w-5xl mx-auto mb-12">
-      <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
+      <div className="relative w-full h-[300px] lg:h-[400px] xl:h-[500px]  overflow-hidden rounded-lg">
         <img
           src={images[currentIndex]}
           alt="Property"
@@ -61,14 +61,14 @@ function ImageSlider() {
       </div>
 
       {/* Thumbnails */}
-      <div className="mt-4 flex flex-wrap justify-between gap-3">
+      <div className="mt-4 flex flex-wrap justify-between gap-[1px]">
         {images.map((img, i) => (
           <img
             key={i}
             src={img}
             alt={`Thumbnail ${i + 1}`}
             onClick={() => changeImage(i)}
-            className={`w-[150px] h-[80px] object-cover rounded-md cursor-pointer border-2 transition ${
+            className={`w-[30%] h-[50px] md:w-[150px] md:h-[80px] object-cover rounded-md cursor-pointer border-2 transition ${
               currentIndex === i ? "border-black" : "border-transparent"
             }`}
           />

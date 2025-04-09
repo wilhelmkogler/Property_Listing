@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Featured() {
     return (
-      <section className="bg-white px-6 py-16">
+      <section className="bg-white px-6 py-10">
         <h2 className="text-3xl text-center font-bold text-gray-900 mb-12">
           Featured Properties
         </h2>

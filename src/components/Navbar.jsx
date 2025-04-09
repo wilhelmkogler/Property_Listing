@@ -24,7 +24,7 @@ function Navbar() {
 
         {/* Mobile menu toggle */}
         <button
-          className="md:hidden text-3xl text-gray-800 focus:outline-none"
+          className="md:hidden text-3xl text-black focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           ☰
@@ -33,10 +33,10 @@ function Navbar() {
 
       {/* Mobile nav */}
       {isOpen && (
-        <div className="md:hidden mt-4 px-6 pb-4 flex flex-col gap-3 bg-white shadow-md rounded-md">
-          <Link to="/browse" className="text-gray-800 hover:text-blue-600">House</Link>
-          <Link to="/browse" className="text-gray-800 hover:text-blue-600">Apartment</Link>
-          <Link to="/product" className="text-gray-800 hover:text-blue-600">Buy Now</Link>
+        <div className="md:hidden mt-2 p-2 flex flex-row justify-around items-center gap-6 text-sm">
+          <Link to="/browse" className="font-bold">House</Link>
+          <Link to="/browse" className="font-bold">Apartment</Link>
+          <Link to="/product" className="font-bold">Buy Now</Link>
         </div>
       )}
     </header>
