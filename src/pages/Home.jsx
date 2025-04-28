@@ -4,20 +4,14 @@ import Reviews from "../components/Reviews.jsx";
 import Cities from "../components/Cities.Jsx";
 import FAQ from "../components/Faq.jsx";
 
-
-
-function Home() {
+function Home({ darkMode }) {
   return (
     <>
-     
-      <Hero />
-      <Featured />
-      <Reviews />
-      <Cities />
-      <FAQ />
-      
-
-
+      <Hero darkMode={darkMode} />
+      <Featured darkMode={darkMode} />
+      <Reviews darkMode={darkMode} />
+      <Cities darkMode={darkMode} />
+      <FAQ darkMode={darkMode} />
     </>
   );
 }

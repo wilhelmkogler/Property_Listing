@@ -1,6 +1,6 @@
 import PropertyCard from "../components/PropertyCard";
 
-function Browse() {
+function Browse({ darkMode }) {
   const properties = [
     {
       img: "/img/out1.jpg",
@@ -47,8 +47,10 @@ function Browse() {
   ];
 
   return (
-    <main className="max-w-6xl mx-auto px-4 py-20 font-sans">
-      <h2 className="text-3xl font-bold text-center m-8">Available Houses</h2>
+    <div className="max-w-6xl mx-auto px-4 py-20 font-sans">
+      <h2 className="text-3xl md:text-4xl font-bold text-center m-8">
+        Available Houses
+      </h2>
 
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {properties.map((p, i) => (
@@ -59,10 +61,11 @@ function Browse() {
             location={p.location}
             size={p.size}
             price={p.price}
+            darkMode={darkMode}
           />
         ))}
       </div>
-    </main>
+    </div>
   );
 }
 

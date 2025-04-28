@@ -8,6 +8,10 @@ export default {
     extend: {
       blur: {
         xs: '2px',
+      },
+      colors: {
+        vilagos: "#fffff",
+        sotet: "#171c1a",
       }
     },
   },

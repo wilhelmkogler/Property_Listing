@@ -45,7 +45,6 @@ function ImageSlider() {
           }`}
         />
 
-        {/* Navigation Buttons */}
         <button
           onClick={prevImage}
           className="absolute top-1/2 left-4 transform -translate-y-1/2 text-4xl text-black  hover:bg-white/60 p-2 rounded-full z-10"
@@ -60,7 +59,6 @@ function ImageSlider() {
         </button>
       </div>
 
-      {/* Thumbnails */}
       <div className="mt-4 flex flex-wrap justify-between gap-[1px]">
         {images.map((img, i) => (
           <img
