@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Sun, Moon } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
 
 function Navbar({ darkMode, toggleDarkMode }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,23 +68,35 @@ function Navbar({ darkMode, toggleDarkMode }) {
         </div>
       </div>
 
-      {isOpen && (
-        <div
-          className={`md:hidden mt-2 p-2 flex flex-row justify-around items-center gap-6 text-sm ${
-            darkMode ? "text-white" : "text-sotet"
-          }`}
-        >
-          <Link to="/browse" className="font-bold">
-            House
-          </Link>
-          <Link to="/browse" className="font-bold">
-            Apartment
-          </Link>
-          <Link to="/product" className="font-bold">
-            Buy Now
-          </Link>
-        </div>
-      )}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            key="mobile-menu"
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className={`absolute left-0 right-0 top-full md:hidden p-4 flex flex-col items-center gap-6 text-sm shadow-lg overflow-hidden z-40 ${
+              darkMode ? "bg-sotet text-white" : "bg-white text-sotet"
+            }`}
+          >
+            <Link to="/browse" className="font-bold">
+              House
+            </Link>
+            <Link to="/browse" className="font-bold">
+              Apartment
+            </Link>
+            <Link
+              to="/product"
+              className={`px-4 py-2 rounded-md ${
+                darkMode ? "bg-white text-black" : "bg-sotet text-white"
+              }`}
+            >
+              Buy Now
+            </Link>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </header>
   );
 }

@@ -15,8 +15,8 @@ function Featured({ darkMode }) {
         <div
           className={`${
             darkMode
-              ? "bg-sotet drop-shadow-[0px_0px_4px_rgba(255,255,255,0.4)]"
-              : "bg-gray-50 drop-shadow-[0px_0px_8px_rgba(0,0,0,0.3)]"
+              ? "bg-sotet"
+              : "bg-white drop-shadow-[0px_0px_8px_rgba(0,0,0,0.3)]"
           } rounded-xl p-5 text-center`}
         >
           <img
@@ -54,8 +54,8 @@ function Featured({ darkMode }) {
         <div
           className={`${
             darkMode
-              ? "bg-sotet drop-shadow-[0px_0px_4px_rgba(255,255,255,0.4)]"
-              : "bg-gray-50 drop-shadow-[0px_0px_8px_rgba(0,0,0,0.3)]"
+              ? "bg-sotet"
+              : "bg-white drop-shadow-[0px_0px_8px_rgba(0,0,0,0.3)]"
           } rounded-xl p-5 text-center`}
         >
           <img
@@ -93,8 +93,8 @@ function Featured({ darkMode }) {
         <div
           className={`${
             darkMode
-              ? "bg-sotet drop-shadow-[0px_0px_4px_rgba(255,255,255,0.4)]"
-              : "bg-gray-50 drop-shadow-[0px_0px_8px_rgba(0,0,0,0.3)]"
+              ? "bg-sotet"
+              : "bg-white drop-shadow-[0px_0px_8px_rgba(0,0,0,0.3)]"
           } rounded-xl p-5 text-center`}
         >
           <img

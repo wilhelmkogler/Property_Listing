@@ -40,8 +40,13 @@
     <img src="public/img/git3.JPG" alt="" srcset="">
     <p align="justify">When a specific property is selected, the user is taken to the detailed view page, where all available information is presented as thoroughly as possible, including images and descriptions. One of the most important elements is the image gallery, which allows users to navigate between photos using left and right arrows or by clicking on the thumbnail images below. A subtle fade animation enhances the photo transitions for a smoother user experience. <br><br>
         Below the gallery, all essential property details are displayed, with the most important ones highlighted using larger font sizes. A table layout is used to make the information easier and quicker to understand. Additionally, an embedded Google Map helps users quickly locate the property, and a brief description provides further context about the area.</p>
+     <h2>Light/Dark Theme</h2>
+    <img src="public/img/git16.JPG" alt="" srcset="">
+    <img src="public/img/git17.JPG" alt="" srcset="">
+    <p align="justify">A fully functional dark/light mode toggle has been implemented across the entire application. The selected mode is stored in localStorage to persist between sessions, and dynamically applied using Tailwind CSS classes. Framer Motion is used to smoothly animate the mobile navigation menu when toggled, ensuring a polished user experience.</p> 
     <h2>Responsive Design</h2>
     <img src="public/img/git13.png" alt="" srcset="">
+    <img src="public/img/git14.png" alt="" srcset="">
     <p align="justify">The website is, of course, fully responsive, ensuring that it looks and functions perfectly across all devices — something that's essential in today's digital world. The navigation bar features a dropdown menu on smaller screens, while the rest of the content is displayed in a vertical layout. Naturally, all features remain fully accessible and animated, just like on larger, horizontal devices.</p>
 
     
